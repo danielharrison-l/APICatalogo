@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace APICatalogo.Models;
 
-[Table("Produtos")]
-public class Products
+[Table("Products")]
+public class Product
 {
     [Key]
     public int ProductId { get; set; }

@@ -27,8 +27,7 @@ namespace APICatalogo.Controllers
         public ActionResult<IEnumerable<Category>> Get() {
             try
             {
-                throw new Exception();
-                //return _context.Categories.AsNoTracking().ToList();
+                return _context.Categories.AsNoTracking().ToList();
             }
             catch (Exception)
             {
